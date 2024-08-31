@@ -1,0 +1,214 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+}
+
+#MenuSuperior{
+    background-color: #303030;
+    color: rgb(190, 197, 203);
+    background-image: url(imagens/background.svg);
+    padding-bottom: 180px;
+       
+}
+
+#textomenu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d9d9d9;
+}
+
+.palavrasmenu{
+    margin-left: 218px;
+    padding-bottom: 15px;
+}
+#titulo{
+    font-size: 50px;
+    font-weight: 100;
+}
+#texto-menu{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 230px;
+}
+
+#logo{
+    width: 215px;
+    margin-left: 0px;
+}
+
+#infos-num{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px;
+    color: rgb(179, 181, 183);
+    background-image: url(imagens/infos/fundoinfos.svg);
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+#imginfo{
+    margin-left: 150px;
+}
+
+#infosinfos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-image: url(imagens/infos/fundoinfos.svg);
+}
+
+
+#menuinfocompleto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: aliceblue;
+    padding-top: 150px;
+}
+
+#titulotxt{
+    padding-bottom: 20px;
+    margin-left: 150px;
+}
+#subtxt{
+    margin-left: 150px;
+    padding-bottom: 150px;
+}
+#fotosarquitetos{
+    margin-top: -50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#img1arq{
+    border-radius: 10%;
+}
+#img2arq{
+    margin-left: 10px;
+    border-radius: 10%;
+}
+#lago{
+    margin-left: 10px;
+    border-radius: 10%;
+    display: none;
+}
+#ingrid{
+    margin-left: 10px;
+    border-radius: 10%;
+    display: none;
+}
+#setadireita{
+    margin-top: 90px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#setaesquerda{
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+#descrenders{
+    padding-left: 150px;
+    color: aliceblue;
+    background-color: #303030; 
+    padding-top: 50px; 
+    padding-bottom: 10px;
+}
+#renders{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #303030; 
+    padding-top: 50px; 
+    padding-bottom: 70px;
+}
+
+
+#render1{
+    margin-left: 20px;
+    border-radius: 10%;
+}
+#render2{
+    border-radius: 10%;
+}
+#render3{
+    border-radius: 10%;
+}
+#render4{
+    border-radius: 10%;
+}
+#render5{
+    display: none;
+    border-radius: 10%;
+}
+#render6{
+    display: none;
+    border-radius: 10%;
+}
+#render7{
+    display: none;
+    border-radius: 10%;
+}
+#render8{
+    display: none;
+    border-radius: 10%;
+}
+
+#setaesquerda2{
+    margin-top: 150px;
+    cursor: pointer;
+}
+#setadireita2{
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-5px) ;
+    transition-duration: 0.3s;
+}
+
+#divcontato{
+    background-color: #aaaaaac6;
+    text-align: center;
+}
+#titulocontato{
+    font-size: 30px;
+    padding-top: 70px;
+    color: #161616;
+    padding-bottom: 30px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px; 
+    margin: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color:rgb(169, 132, 84);
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: azure;
+}
+
+button:hover{
+    background-color: rgb(226, 196, 159);
+    transform: translateY(-3px);
+    box-shadow: 0px 15px 20px rgb(45, 40, 35);
+    transition-duration: 0.5s;
+}
